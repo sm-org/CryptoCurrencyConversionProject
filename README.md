@@ -4,15 +4,15 @@ Project to Create Service in Java Spring to Get BTC Values in USD
 Summary of the Application
 ----------------------
 Application is developed with Java Spring Framework.
-For the detials how the architecture has been created, please refer to the diagram uploaded in the project.
+For the details how the architecture looks like, please refer to the diagram uploaded in the project.
 
-Information Fetching has been scheduled and defined in config.properties. Periodicly, the call from the Service is being done to get the information and store it into the database.
+Information Fetching has been scheduled and defined in config.properties. Periodically, the call from the Service is being done to get the information and store it into the database.
 
 With Controller, the HTTP API has been exposed for third party to get information about last rate that has been fetched in database and list of the rates defined by the date period.
 
 Configuration
 -------------
-Service is regulary fetching 1BTC value in USD currency and storing it in database(Internal H2 database).
+Service regularly fetches 1BTC value in USD currency and storing it in database (Internal H2 database).
 Time period to fetch the values is configurable and can be defined in config.properties.
 **************************************
 Current Setup of the config.properties
